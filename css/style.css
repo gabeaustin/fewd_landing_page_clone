@@ -140,6 +140,7 @@ body {
 .introduction h3 {
   margin-top: 1.25rem;
   font-size: 1.563rem;
+  padding-bottom: 1rem; /* puts space between text and btn below */
 }
 
 .big-button {
