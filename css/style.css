@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/* STYLES WITH RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -45,4 +46,26 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+/* STYLES WITH RESET - END */
+
+/***** REMOVE THESE ONCE DONE TESTING *****/
+body {
+  background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
+}
+/***** REMOVE THESE ONCE DONE TESTING - END *****/
+
+/* Navigation Section */
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto; /* this makes content inside of .top-navigation always centered */
 }
