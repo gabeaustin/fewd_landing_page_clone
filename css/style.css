@@ -69,3 +69,8 @@ div {
   height: 70px;
   margin: 0 auto; /* this makes content inside of .top-navigation always centered */
 }
+
+.logo {
+  margin-left: 14px;
+  height: 70px;
+}
