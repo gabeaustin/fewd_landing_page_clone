@@ -142,4 +142,23 @@ body {
   font-size: 1.563rem;
 }
 
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  color: #fff;
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  font-size: 1.125rem;
+  display: block; /* center button */
+  margin: 0 auto; /* center button */
+}
 
+.big-button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
