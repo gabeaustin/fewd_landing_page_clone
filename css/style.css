@@ -68,6 +68,8 @@ div {
 /* Navigation Section */
 .content {
   padding: 0px 15px;
+  width: 970px;
+  margin: 0 auto; /* this makes content inside of .top-navigation always centered */
 }
 
 .top-navigation {
@@ -75,9 +77,9 @@ div {
 }
 
 .top-navigation > .content {
-  width: 970px;
+  /*width: 970px;*/
   height: 70px;
-  margin: 0 auto; /* this makes content inside of .top-navigation always centered */
+  /*margin: 0 auto;  this makes content inside of .top-navigation always centered */
 }
 
 .top-navigation .logo {
@@ -116,6 +118,28 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
+  overflow: auto;
+}
+
+.introduction h1,
+.introduction h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Roberto', sans-serif;
+}
+
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+.introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
 }
 
 
