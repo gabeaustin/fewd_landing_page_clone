@@ -74,6 +74,9 @@ div {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -110,6 +113,9 @@ div {
 .top-navigation .links li:hover {
   cursor: pointer;
   color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .introduction {
@@ -164,4 +170,21 @@ body {
   cursor: pointer;
 }
 
-/* test */
+.cases h2 {
+  /*margin-top: 17.5rem;*/
+  font-size: 3.125rem;
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+}
+
+.cases .devices {
+  /*width: 33.3333333%;*/
+  width: 127px;
+  height: 127px;
+  display: inline-block;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+}
